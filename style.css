@@ -1,0 +1,41 @@
+body{
+    margin:0 auto;
+    width: 800px;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    text-align: justify;
+    background-color: black;
+   
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 110px;
+}
+
+.heading{
+    text-align: center;
+    justify-content: center;
+}
+.main{
+    width: 100%;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgs{
+    width: calc(33.33% - 10px);
+    text-align: center;
+    
+}
+
+.imgs img{
+    width: 100%;
+    height: auto;
+}
